@@ -15,6 +15,8 @@
 		082C1B051A792E9E001CD142 /* BreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C1B041A792E9E001CD142 /* BreakTests.swift */; };
 		082C1B0F1A792F82001CD142 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 082C1B0E1A792F82001CD142 /* background.png */; };
 		082C1B111A7970B5001CD142 /* LivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C1B101A7970B5001CD142 /* LivesView.swift */; };
+		082C1B131A7A78BE001CD142 /* Cubano-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 082C1B121A797E5C001CD142 /* Cubano-Regular.otf */; };
+		082C1B151A7A8151001CD142 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C1B141A7A8151001CD142 /* GameData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 		082C1B0E1A792F82001CD142 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../Downloads/background.png; sourceTree = "<group>"; };
 		082C1B101A7970B5001CD142 /* LivesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivesView.swift; sourceTree = "<group>"; };
 		082C1B121A797E5C001CD142 /* Cubano-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cubano-Regular.otf"; path = "../Cubano-Regular.otf"; sourceTree = "<group>"; };
+		082C1B141A7A8151001CD142 /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 			children = (
 				082C1AEE1A792E9D001CD142 /* AppDelegate.swift */,
 				082C1AF01A792E9D001CD142 /* ViewController.swift */,
+				082C1B141A7A8151001CD142 /* GameData.swift */,
 				082C1AF21A792E9D001CD142 /* Main.storyboard */,
 				082C1B101A7970B5001CD142 /* LivesView.swift */,
 				082C1B0E1A792F82001CD142 /* background.png */,
@@ -202,6 +206,7 @@
 			files = (
 				082C1AF41A792E9D001CD142 /* Main.storyboard in Resources */,
 				082C1B0F1A792F82001CD142 /* background.png in Resources */,
+				082C1B131A7A78BE001CD142 /* Cubano-Regular.otf in Resources */,
 				082C1AF91A792E9E001CD142 /* LaunchScreen.xib in Resources */,
 				082C1AF61A792E9D001CD142 /* Images.xcassets in Resources */,
 			);
@@ -222,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				082C1AF11A792E9D001CD142 /* ViewController.swift in Sources */,
+				082C1B151A7A8151001CD142 /* GameData.swift in Sources */,
 				082C1AEF1A792E9D001CD142 /* AppDelegate.swift in Sources */,
 				082C1B111A7970B5001CD142 /* LivesView.swift in Sources */,
 			);
@@ -415,6 +421,7 @@
 				082C1B0A1A792E9E001CD142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		082C1B0B1A792E9E001CD142 /* Build configuration list for PBXNativeTarget "BreakTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +430,7 @@
 				082C1B0D1A792E9E001CD142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
